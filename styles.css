@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.estado-select {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 400px; 
+    background-color: white;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    appearance: none; 
+    text-align: center;
+}
+
+.estado-select option {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.estado-select:hover {
+    border-color: green;
+}
+
+.estado-select:focus {
+    outline: none;
+    border-color: black;
+}
+
+.genero-select {
+    display: block;
+    width: 220px;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.genero-select:hover {
+    border-color: #0056b3;
+}
+
+.genero-select:focus {
+    outline: none;
+    border-color: #003d80;
+}
+
